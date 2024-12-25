@@ -3,7 +3,7 @@ function calculateSum(numbers) {
 // Adaug metoda "reduce()" care itereaza prin fiecare element din lista, shi ii face suma.
 //"accumulator" suma pana la moment, iar "currentValue va fi elementul curent din array"; 
 // accumulator + currentValue: Aceasta aduna valoarea curenta la suma acumulata; "0" este valoarea initiala a accumulator-ului.
-    return numbers.reduce((accumulator, current) => accumulator + currentcurrentValue, 0);
+    return numbers.reduce((accumulator, current) => accumulator + current, 0);
 }
 
 let array1 = [1, -5, 20, -34, 16, 29, 36, -4];
